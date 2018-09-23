@@ -11,7 +11,7 @@ public class Upload {
     private String mImageUrl;
     private String time;
 
-    public Upload(){
+    public Upload(String s){
 
     }
 

@@ -23,12 +23,12 @@ public class homefragment extends Fragment {
         View view=inflater.inflate(R.layout.home, container, false);
         Switch switch1 = (Switch)view.findViewById(R.id.switch1);
         Switch switch2 = (Switch)view.findViewById(R.id.switch2);
-        Button add = (Button) view.findViewById(R.id.add);
+        Button location = (Button) view.findViewById(R.id.add);
 
-        add.setOnClickListener(new View.OnClickListener() {
+        location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(getActivity(),add_image.class);
+                Intent i=new Intent(getActivity(),location.class);
                 startActivity(i);
 
             }
